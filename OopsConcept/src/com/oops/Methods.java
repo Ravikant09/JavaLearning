@@ -4,9 +4,9 @@ public class Methods {
 
 	public static void main(String[] args) {
 	Test h=null;
-	h.show();
+	Test.show();
 	h=new Test();
-	h.show();           
+	Test.show();
 	Test.show();
 	}
 	}

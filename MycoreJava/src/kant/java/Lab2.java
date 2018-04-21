@@ -8,8 +8,6 @@ public class Lab2 {
 	public static void main(String[] args) {
 		List<String> list = Arrays.asList("ravi", "Verma", "Anmol", "ravi");
 		List<String> namefilter = list.stream().filter(s -> s.equals("ravi")).collect(Collectors.toList());
-		for (String names : namefilter) {
-			System.out.println(names);
-		}
+		                                                     
 	}
 }

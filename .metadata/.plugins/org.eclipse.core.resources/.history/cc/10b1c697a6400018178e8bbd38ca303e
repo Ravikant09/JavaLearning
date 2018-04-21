@@ -1,0 +1,25 @@
+package alangPackage;
+
+public class Equals2 {
+
+	public static void main(Student7[] args) {
+		Student7 st1= new Student7 ("sri");
+		Student7 st2=  new Student7("sri");
+		Student7  st3 =new Student7 ("ravi");
+		System.out.println("using==op");
+		System.out.println(st1==st2);
+		System.out.println(st1==st3);
+		System.out.println("using equals()");
+		System.out.println(st1.equals(st2));
+		System.out.println(st2.equals(st3));
+		
+		
+	}
+
+}
+class Student7{
+	String name;
+ Student7( String sname) {
+		name =sname;
+		
+}}

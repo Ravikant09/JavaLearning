@@ -1,0 +1,14 @@
+package alangPackage;
+
+public class ToSTring1 {
+
+	public static void main(String[] args) {
+		Student6 st1= new Student6(99,"sri");
+		Student6 st2= new Student6(88, "nivca");
+		System.out.println(st1);
+		System.out.println(st2);
+		
+	}
+
+}
+class 

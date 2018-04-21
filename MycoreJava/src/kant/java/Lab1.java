@@ -11,7 +11,6 @@ public class Lab1 {
 		showClassinfo(stu);
 		Object obj = new Object();
 		showClassinfo(obj);
-		System.out.println("check on github.");
 
 	}
 

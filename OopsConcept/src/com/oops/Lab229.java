@@ -8,7 +8,7 @@ z h=new z();//(now value of z is not over write so value of a will get 90 for in
 		System.out.println("df"+z.a);
 z.a=99;
 
-System.out.println("j"+h.a);//(over write of value of 90 to 99)
+System.out.println("j"+ z.a);//(over write of value of 90 to 99)
 	}}
 class z{
 	static int a=90;

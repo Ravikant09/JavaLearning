@@ -8,7 +8,7 @@ public class Lab230 {
 		System.out.println("df"+new z1().a);
 z1.a=99;
 z1 h=new z1();//(now  value ofa is overwrite from 90 to 99 as class loaded)
-System.out.println("j"+h.a);
+System.out.println("j"+ z1.a);
 	}}
 class z1{
 	static int a=90;
