@@ -2,7 +2,8 @@ package programs.java;
 
 import java.util.Scanner;
 
-public class Test1 {
+public class
+Test1 {
 
 public static void main (String arg[]){
 	

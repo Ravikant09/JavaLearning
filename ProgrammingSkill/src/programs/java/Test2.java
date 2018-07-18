@@ -1,5 +1,5 @@
-package programs.java;
-
+ package programs.java;
+ 
 import java.util.Scanner;
 
 public class Test2 {
