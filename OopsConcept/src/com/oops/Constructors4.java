@@ -4,7 +4,7 @@ class Constructors4 {
  
 	public static void main(String[] args) {
 	
-	Student4 stu1=new Student4();
+	new Student4();
 	
 	
 	
